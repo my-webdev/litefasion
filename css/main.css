@@ -53,7 +53,7 @@ footer {
 /* header styling start  */
 
 header{
-    background-image: url("/images/img1.jpg");
+    background-image: url("../images/img1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,28 +159,28 @@ a{
  
 }
 .post1{
-    background-image: url("/images/img1.jpg");
+    background-image: url("../images/img1.jpg");
     background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
 }
 .post2{
-    background-image: url("/images/img2.jpg");
+    background-image: url("../images/img2.jpg");
 }
 .post3{
-    background-image: url("/images/img3.jpg");
+    background-image: url("../images/img3.jpg");
   
 }
 .post4{
-    background-image: url("/images/img4.jpg");
+    background-image: url("../images/img4.jpg");
   
 }
 .post5{
-    background-image: url("/images/img5.jpg");
+    background-image: url("../images/img5.jpg");
     
 }
 .post6{
-    background-image: url("/images/img6.jpg");
+    background-image: url("../images/img6.jpg");
     
 }
 .content-image img{
