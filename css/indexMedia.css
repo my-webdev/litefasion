@@ -1,0 +1,118 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #main { 
+        display: grid;
+        grid-template-areas: 
+        "head"
+        "articl"
+        "asid"
+        "foote";
+        grid-template-rows: 600px 2fr 1fr 10%;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        
+        
+    }
+    header {
+        grid-area: head;
+
+
+    }
+    article {
+        background-color: #f4f4f4;
+        grid-area: articl; 
+     
+
+    }
+    .min-post{
+        display: flex;
+        flex-direction:column;
+        height: 500px;
+    }
+    .content-img img{
+        position: relative;
+        display: block;
+        height: 100%;
+    }
+    aside .min-post{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    aside {
+      
+        grid-area: asid; 
+    }
+    
+    footer {
+        
+        grid-area: foote;
+      
+    }
+    .navigation{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 896px) {
+    #main { 
+        display: grid;
+        grid-template-areas: 
+        "head"
+        "articl"
+        "asid"
+        "foote";
+        grid-template-rows: 600px 2fr 1fr 10%;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        
+        
+    }
+    header {
+        grid-area: head;
+
+    }
+    article {
+        background-color: #f4f4f4;
+        grid-area: articl; 
+     
+
+    }
+    
+    
+    aside {
+      
+        grid-area: asid; 
+    }
+    
+    footer {
+        
+        grid-area: foote;
+      
+    }
+    .min-post{
+        display: flex;
+        flex-direction:column;
+        height: 600px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}

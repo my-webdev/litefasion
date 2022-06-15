@@ -1,0 +1,79 @@
+@import url("/css/main.css");
+
+#about{
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 300px 1fr 10%;
+
+    grid-template-areas: 
+    "hd"
+    "abt"
+    "ft" ;
+}
+header{
+    grid-area: hd;
+    border: 2px solid black;
+}
+main{
+    grid-area: abt;
+    height: 100vh;
+}
+footer{
+    grid-area: ft;
+    background-color: black;
+}
+.about{
+    margin-top: 100px;
+
+}
+.about h1{
+  text-align: center;
+  color: rgb(199,111,0);
+  font-weight: 300;
+  font-size: 25px;
+  position: relative;
+  text-transform: capitalize;
+}
+.about-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+form .f-group{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+.f-group label{
+    font-size: 18px;
+    padding: 2px 0;
+    color: rgb(199,111,0);
+}
+.f-group input, textarea{
+    box-shadow: 5px 5px 15px 5px rgba(38, 37, 37, 0.133);
+    border: none;
+    font-size: 18px;
+    padding: 2px;
+    outline: none;
+}
+.f-group button{
+    padding: 2px;
+    background-color:rgb(199,111,0);
+    color: #ffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+.f-group button:hover{
+   transform: scale(0.998);
+   background-color: #ffff;
+   color: rgb(199,111,0);
+   transition: 1s ease-in-out;
+   box-shadow: 5px 5px 15px 5px rgba(38, 37, 37, 0.133);
+   cursor: help;
+}
+
