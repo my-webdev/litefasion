@@ -1,7 +1,7 @@
-@import url("./about.css");
-@import url("./blog.css");
-@import url("./aboutBlogMedia.css");
-@import url("./indexMedia.css");
+@import url("/css/about.css");
+@import url("/css/blog.css");
+@import url("/css/aboutBlogMedia.css");
+@import url("/css/indexMedia.css");
 *{
     margin: 0;
     padding: 0;
@@ -244,3 +244,8 @@ aside .min-post h1{
     font-weight: small;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+u, mark {
+    display: inline;
+}
+
