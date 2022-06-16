@@ -1,7 +1,7 @@
 @import url("about.css");
 @import url("blog.css");
 @import url("aboutBlogMedia.css");
-@import url("indexMedia.css");
+@import url("css/indexMedia.css");
 *{
     margin: 0;
     padding: 0;
